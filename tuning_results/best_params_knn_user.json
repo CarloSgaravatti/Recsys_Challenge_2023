@@ -1,1 +1,1 @@
-{"similarity": "asymmetric", "topK": 417, "shrink": 2}
+{"similarity": "cosine", "topK": 506, "shrink": 0}
