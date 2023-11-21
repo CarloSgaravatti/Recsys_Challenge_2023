@@ -1,1 +1,1 @@
-{"topK_fine": 507, "shrink_fine": 184, "similarity_fine": "jaccard", "topK_coarse": 96, "shrink_coarse": 96, "similarity_coarse": "cosine", "coarse_cutoff": 806}
+{"topK_fine": 39, "shrink_fine": 205, "similarity_fine": "dice", "topK_coarse": 238, "shrink_coarse": 259, "similarity_coarse": "tversky", "coarse_cutoff": 10}
