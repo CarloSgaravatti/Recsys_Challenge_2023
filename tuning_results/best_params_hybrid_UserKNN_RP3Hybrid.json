@@ -1,0 +1,1 @@
+{"topK_fine": 71, "shrink_fine": 95, "similarity_fine": "tversky", "topK_coarse": 63, "alpha": 0.5681371776153115, "beta": 0.06584354698343964, "coarse_cutoff": 33}
