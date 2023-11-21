@@ -1,1 +1,1 @@
-{"similarity": "jaccard", "topK": 13, "shrink": 46}
+{"similarity": "tanimoto", "topK": 12, "shrink": 37}
