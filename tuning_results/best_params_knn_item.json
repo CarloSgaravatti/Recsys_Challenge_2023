@@ -1,1 +1,1 @@
-{"similarity": "jaccard", "topK": 11, "shrink": 29}
+{"similarity": "dice", "topK": 10, "shrink": 43}
