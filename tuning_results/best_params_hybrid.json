@@ -1,1 +1,1 @@
-{"topK_fine": 12, "shrink_fine": 8, "similarity_fine": "tversky", "topK_coarse": 476, "shrink_coarse": 389, "similarity_coarse": "tanimoto", "coarse_cutoff": 10}
+{"topK_fine": 10, "shrink_fine": 16, "similarity_fine": "tversky", "topK_coarse": 538, "shrink_coarse": 381, "similarity_coarse": "asymmetric", "coarse_cutoff": 10}
