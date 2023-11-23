@@ -1,1 +1,1 @@
-{"similarity": "dice", "topK": 10, "shrink": 43}
+{"topK": 13, "shrink": 23, "similarity": "tversky", "tversky_alpha": 0.43044665896780177, "tversky_beta": 1.9760897790418572}
