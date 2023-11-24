@@ -1,1 +1,1 @@
-{"topK": 32, "shrink": 33, "similarity": "tanimoto"}
+{"topK": 25, "shrink": 35, "similarity": "tanimoto"}
