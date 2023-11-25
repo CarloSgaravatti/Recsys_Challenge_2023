@@ -531,7 +531,7 @@ cdef matrix_element_tree_s * pointer_new_matrix_element_tree_s(long column, floa
 
 
 # Functions to compare structs to be used in C qsort
-cdef int compare_struct_on_column(const void *a_input, const void *b_input):
+cdef int compare_struct_on_column(const void *a_input, const void *b_input) nogil:
     """
     The function compares the column contained in the two struct passed.
     If a.column > b.column returns >0  
@@ -547,7 +547,7 @@ cdef int compare_struct_on_column(const void *a_input, const void *b_input):
 
 
 
-cdef int compare_struct_on_data(const void * a_input, const void * b_input):
+cdef int compare_struct_on_data(const void * a_input, const void * b_input) nogil:
     """
     The function compares the data contained in the two struct passed.
     If a.data > b.data returns >0  
