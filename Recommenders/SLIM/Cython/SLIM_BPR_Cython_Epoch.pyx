@@ -503,6 +503,7 @@ cdef extern from "stdlib.h":
     void qsort(void *base, int nmemb, int size,
             int(*compar)(const_void *, const_void *)) nogil
 
+ctypedef int (*compare_func)(const void*, const void*)
 
 # Node struct
 ctypedef struct matrix_element_tree_s:
@@ -987,11 +988,11 @@ cdef class Sparse_Matrix_Tree_CSR:
 
 
         # Sort array elements on their data field
-        qsort(vector_pointer_to_list_elements, list_length, sizeof(head_pointer_tree_s), compare_struct_on_data)
+        qsort(vector_pointer_to_list_elements, list_length, sizeof(head_pointer_tree_s), <compare_func>compare_struct_on_data)
 
         # Sort only the TopK according to their column field
         # Sort is from lower to higher, therefore the elements to be considered are from len-topK to len
-        qsort(&vector_pointer_to_list_elements[list_length-TopK], TopK, sizeof(head_pointer_tree_s), compare_struct_on_column)
+        qsort(&vector_pointer_to_list_elements[list_length-TopK], TopK, sizeof(head_pointer_tree_s), <compare_func>compare_struct_on_column)
 
 
         # Rebuild list attaching the consecutive elements
