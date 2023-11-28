@@ -13,6 +13,4 @@ class LinearCombinationRecommender(BaseRecommender):
         scores = np.zeros((len(user_id_array), self.n_items))
         for recommender, w in zip(self.recommenders, self.weights):
             scores += recommender._compute_item_score(user_id_array, items_to_compute) * w
-        if items_to_compute is not None:
-            return scores[:, items_to_compute]
         return scores
