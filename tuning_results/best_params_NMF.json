@@ -1,1 +1,1 @@
-{"num_factors": 343, "solver": "coordinate_descent", "l1_ratio": 0.7748400903670737}
+{"num_factors": 231, "solver": "multiplicative_update", "l1_ratio": 0.26437920971784756}
