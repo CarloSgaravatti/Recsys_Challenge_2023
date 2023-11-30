@@ -1,1 +1,1 @@
-{"reg": 9.302710185517334, "alpha": 3.1176520214364416, "num_factors": 210, "confidence_scaling": "linear"}
+{"reg": 9.302710185517334, "alpha": 3.1176520214364416, "num_factors": 210, "confidence_scaling": "linear", "epochs": {"epochs": 27}}
