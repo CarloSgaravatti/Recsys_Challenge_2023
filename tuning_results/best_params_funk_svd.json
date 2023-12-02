@@ -1,0 +1,1 @@
+{"num_factors": 78, "sgd_mode": "adagrad", "batch_size": 16, "user_reg": 6.544601351231961e-06, "item_reg": 0.0010765919568186601, "learning_rate": 0.001791760941371095, "dropout_quota": 0.0010853187690601312, "init_std_dev": 0.01254364147364146}
