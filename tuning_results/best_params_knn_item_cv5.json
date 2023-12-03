@@ -1,1 +1,1 @@
-{"topK": 26, "shrink": 36, "similarity": "jaccard"}
+{"topK": 10, "shrink": 18, "similarity": "asymmetric", "asymmetric_alpha": 0.1357777674908317}
