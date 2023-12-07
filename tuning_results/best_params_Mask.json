@@ -1,0 +1,1 @@
+{"learning_rate": 0.00942280830559899, "batch_size": 786, "dropout": 0.5261911228470907, "l2_reg": 0.0036588806427658603, "anneal_cap": 0.11578181827911618, "encoding_size": 52, "next_layer_size_multiplier": 4}
