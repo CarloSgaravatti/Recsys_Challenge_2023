@@ -1,1 +1,1 @@
-{"n_components": 83, "learning_rate": 2.3069080474839095e-05, "loss": "bpr", "sgd_mode": "adagrad", "item_alpha": 4.156214683546632e-05, "user_alpha": 4.5817300152753234e-07}
+{"n_components": 60, "learning_rate": 0.03668850863073929, "loss": "warp-kos", "sgd_mode": "adagrad", "item_alpha": 1.537117035436426e-05, "user_alpha": 6.964910846027221e-06}
