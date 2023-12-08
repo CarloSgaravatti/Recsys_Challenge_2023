@@ -1,1 +1,1 @@
-{"learning_rate": 0.009588916735782473, "batch_size": 798, "dropout": 0.4947766195046696, "l2_reg": 0.0034925053698976944, "anneal_cap": 0.12147960521824828, "encoding_size": 50, "next_layer_size_multiplier": 3}
+{"learning_rate": 0.006781858052406466, "batch_size": 595, "dropout": 0.37492320152163416, "l2_reg": 0.0011306201367083015, "anneal_cap": 0.23854976231287403, "encoding_size": 960, "next_layer_size_multiplier": 3, "total_anneal_steps": 21971}
