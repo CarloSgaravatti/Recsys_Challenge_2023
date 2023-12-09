@@ -1,1 +1,1 @@
-{"topK": 337, "shrink": 30, "similarity": "cosine", "feature_weighting": "TF-IDF"}
+{"topK": 489, "shrink": 11, "similarity": "asymmetric", "feature_weighting": "TF-IDF", "asymmetric_alpha": 0.36925827486075397}
