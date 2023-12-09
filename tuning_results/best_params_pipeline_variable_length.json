@@ -1,1 +1,1 @@
-{"coarse_recommender": "merging", "use_3_levels": false, "cutoff": 13, "final_recommender_c1:merging": "slim"}
+{"coarse_recommender": "easeR", "use_3_levels": false, "cutoff": 169, "final_recommender_c1:easeR": "slim"}
