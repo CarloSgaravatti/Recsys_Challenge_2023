@@ -42,4 +42,4 @@ class ALSImplicitRecommender(BaseRecommender):
     def load_model(self, folder_path, file_name=None):
         if file_name is None:
             file_name = 'als.npz'
-        self.model = implicit.recommender_base.RecommenderBase.load(os.path.join(folder_path, file_name))
+        self.model = implicit.cpu.als.AlternatingLeastSquares.load(os.path.join(folder_path, file_name))
