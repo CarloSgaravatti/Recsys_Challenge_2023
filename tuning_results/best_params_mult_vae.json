@@ -1,0 +1,1 @@
+{"n_layers": 1, "layer_1": 333, "learning_rate": 4.9137571393618016e-05, "batch_size": 16, "dropout": 0.6287867085286982, "l2_reg": 9.623602724169472e-06, "anneal_cap": 0.39436830690054736, "total_anneal_steps": 2048, "epochs": 219}
