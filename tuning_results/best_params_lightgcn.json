@@ -1,1 +1,1 @@
-{"num_layers": 4, "embedding_size": 149, "learning_rate": 0.0005392797512592781, "init_std": 0.014523148690974999, "optimizer": "adam", "loss": "xentropy", "l2_user": 5.433758885501271e-05, "l2_item": 6.66897258633659e-05, "epochs": 2}
+{"num_layers": 5, "embedding_size": 9, "learning_rate": 0.0011191184575767377, "init_std": 0.00848926887360631, "optimizer": "sgd", "loss": "xentropy", "l2_user": 0.19631978156964322, "l2_item": 19.05497667970805, "epochs": 6}
