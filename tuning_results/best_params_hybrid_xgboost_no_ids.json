@@ -1,0 +1,1 @@
+{"objective": "rank:pairwise", "n_estimators": 869, "learning_rate": 0.020198022258149203, "reg_alpha": 0.01531096130599492, "reg_lambda": 0.0047528160826640735, "max_depth": 4, "max_leaves": 566, "grow_policy": "lossguide", "gamma": 0.03564665462142071, "min_child_weight": 6.353566880636257e-06, "subsample": 0.3823729251414093, "colsample_bytree": 0.8491927062266872}
