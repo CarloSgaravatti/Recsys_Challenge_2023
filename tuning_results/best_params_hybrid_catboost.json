@@ -1,0 +1,1 @@
+{"loss_function": "YetiRank", "iterations": 2386, "depth": 2, "subsample": 0.40251518747766524, "learning_rate": 0.007359221212289001, "rsm": 0.15457961185644878, "l2_leaf_reg": 0.000425847298158608, "bagging_temperature": 15.03167874512286, "min_data_in_leaf": 55834.993393149736, "leaf_estimation_iterations": 1}
