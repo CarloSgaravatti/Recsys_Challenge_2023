@@ -1,0 +1,1 @@
+{"iterations": 1444, "depth": 3, "subsample": 0.13841728987808255, "learning_rate": 0.03770315306364707, "rsm": 0.053667834423180516, "l2_leaf_reg": 0.018435357374096302, "bagging_temperature": 6.055377764130148, "min_data_in_leaf": 23006.803696488158, "leaf_estimation_iterations": 1, "grow_policy": "Lossguide", "border_count": 184}
