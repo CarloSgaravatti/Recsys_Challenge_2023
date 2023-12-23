@@ -1,1 +1,1 @@
-{"num_layers": 2, "embedding_size": 19, "learning_rate": 0.00012838208404111743, "optimizer": "adam", "l2_reg": 3.864206381726484e-05, "batch_size": 32, "epochs": 23}
+{"num_layers": 3, "embedding_size": 7, "learning_rate": 0.000293087287804168, "optimizer": "rmsprop", "l2_reg": 0.0007093934673528809, "batch_size": 128, "epochs": 23}
