@@ -1,1 +1,1 @@
-{"n_components": 142, "learning_rate": 0.19634404411728962, "loss": "bpr", "sgd_mode": "adadelta", "item_alpha": 3.672686418240886e-05, "user_alpha": 4.046524224072206e-06}
+{"n_components": 381, "learning_rate": 0.1407822603350589, "loss": "bpr", "sgd_mode": "adadelta", "item_alpha": 2.928052786110642e-06, "user_alpha": 2.8505976135764186e-06}
