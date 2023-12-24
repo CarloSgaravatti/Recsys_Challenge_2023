@@ -1,1 +1,1 @@
-{"learning_rate": 0.0017371522695083213, "batch_size": 64, "dropout": 0.7065522515429316, "l2_reg": 0.007784640552887049, "anneal_cap": 0.11303269510632315, "total_anneal_steps": 8987}
+{"learning_rate": 0.0010688067240808858, "batch_size": 32, "dropout": 0.8893785466656048, "l2_reg": 0.0444889066421689, "anneal_cap": 0.05014453326905595, "total_anneal_steps": 3675}
