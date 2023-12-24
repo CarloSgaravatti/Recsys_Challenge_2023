@@ -40,7 +40,7 @@ class HHPRecommender(BaseItemSimilarityMatrixRecommender):
                 
         k_u = np.ediff1d(sps.csr_matrix(self.URM_train).indptr) # user out degree
         k_i = np.ediff1d(sps.csc_matrix(self.URM_train).indptr) # item out degree
-        k_i_1_mius_lamda = np.float_power(k_i, 1 - self.hybrid_lambda) + 1e-6
+        heatS_contribution = (1 / (np.float_power(k_i, 1 - self.hybrid_lambda) + 1e-6)).reshape(1, -1)
         
         Pui = normalize(self.URM_train, norm='l1', axis=1)
         
@@ -64,8 +64,7 @@ class HHPRecommender(BaseItemSimilarityMatrixRecommender):
                 block_dim = Pui.shape[1] - current_block_start_row
 
             similarity_block = d_t[current_block_start_row:current_block_start_row + block_dim, :] * Pui
-            heatS_contribution = 1 / k_i_1_mius_lamda[current_block_start_row:current_block_start_row + block_dim]
-            similarity_block = similarity_block.multiply(heatS_contribution.reshape(-1, 1)).toarray()
+            similarity_block = similarity_block.multiply(heatS_contribution).toarray()
 
             for row_in_block in range(block_dim):
                 row_data = similarity_block[row_in_block, :]
