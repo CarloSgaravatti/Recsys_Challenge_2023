@@ -1,1 +1,1 @@
-{"topK": 172, "shrink": 478, "similarity": "tanimoto", "feature_weighting": "BM25"}
+{"topK": 94, "shrink": 479, "similarity": "tversky", "feature_weighting": "BM25", "tversky_alpha": 0.010077514527591758, "tversky_beta": 1.6400961840323336}
