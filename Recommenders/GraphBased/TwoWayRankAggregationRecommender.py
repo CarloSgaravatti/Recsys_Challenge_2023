@@ -50,7 +50,7 @@ class TwoWayRankAggregationRecommender(BaseRecommender):
             raise ValueError("Value for 'convex_lambda' not valid. Must be inside [0, 1]")
         
         self.base_f_algorithm = base_f_algorithm
-        self.base_b_algorithm = base_f_algorithm
+        self.base_b_algorithm = base_b_algorithm
         self.convex_lambda = convex_lambda
         self.f_params = f_params if f_params is not None else {}
         self.b_params = b_params if b_params is not None else {}
