@@ -17,6 +17,8 @@ class TwoWayRankAggregationRecommender(BaseRecommender):
     in the usual way and b-score is obtained by applying the same (or another) algorithm but with the role 
     of users and items reversed. For example, with ProbS (P3), the 3 step random walk starts from an item 
     and not from a user.
+
+    In principle, this idea can be extended also to algorithm that do not work with graphs.
     
     Original Paper: https://arxiv.org/pdf/2004.10393.pdf
     '''
