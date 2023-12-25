@@ -1,1 +1,1 @@
-{"base_f_algorithm": "p3alpha", "base_b_algorithm": "rp3beta", "convex_lambda": 0.37582555182895216, "f_p3a_alpha": 0.12928026473599308, "f_p3a_topK": 33, "b_rp3_alpha": 0.0010771332958636234, "b_rp3_beta": 0.3746501973375006, "b_rp3_topK": 382}
+{"base_f_algorithm": "rp3beta", "base_b_algorithm": "rp3beta", "convex_lambda": 0.29349101316720133, "f_rp3_alpha": 0.027401324023137497, "f_rp3_beta": 0.1993444204207519, "f_rp3_topK": 20, "b_rp3_alpha": 0.7263749292735336, "b_rp3_beta": 0.03373722934546533, "b_rp3_topK": 355}
