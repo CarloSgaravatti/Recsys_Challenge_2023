@@ -1,0 +1,1 @@
+{"loss_function": "QuerySoftMax", "iterations": 653, "depth": 7, "subsample": 0.05598668523278306, "learning_rate": 0.2636645980054759, "rsm": 0.09435815548771517, "l2_leaf_reg": 0.00010600395628815879, "bagging_temperature": 91.58971829534286, "min_data_in_leaf": 15.561259755720622, "leaf_estimation_iterations": 1, "border_count": 223, "grow_policy": "SymmetricTree"}
