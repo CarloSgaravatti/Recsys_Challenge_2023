@@ -1,0 +1,1 @@
+{"loss_function": "QuerySoftMax", "iterations": 304, "depth": 10, "subsample": 0.4353606007935276, "learning_rate": 0.01949373031803012, "rsm": 0.6678369285168391, "l2_leaf_reg": 0.023881416518124563, "bagging_temperature": 9.231220197887033, "min_data_in_leaf": 2124.4691693287887, "leaf_estimation_iterations": 2, "border_count": 13}
